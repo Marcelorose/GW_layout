@@ -1,3 +1,30 @@
-html{
-    width: 100%;
+html, body{
+    background-image: linear-gradient(to right, #7030F3 , #B38BFF);
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.navbar-styled{
+    align-items: flex-end !important;
+}
+
+.navbar-styled .nav-link{
+    color: white;
+    font-size: 14px;
+}
+
+.btn-entrar{
+    color: #7232F3;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.enterprise{
+    font-size: 3rem;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: white;
+}
+
+#enterprise-block{
 }
