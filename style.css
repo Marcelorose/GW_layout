@@ -1,9 +1,14 @@
 html, body{
+<<<<<<< HEAD
     font-family: 'Poppins', sans-serif !important;
 }
 
 #purple-bg{
     background-image: linear-gradient(to right, #7030F3 , #B38BFF);
+=======
+    background-image: linear-gradient(to right, #7030F3 , #B38BFF);
+    font-family: 'Poppins', sans-serif !important;
+>>>>>>> master
 }
 
 .navbar-styled{
@@ -15,13 +20,18 @@ html, body{
     font-size: 14px;
 }
 
+<<<<<<< HEAD
 #btn-entrar{
+=======
+.btn-entrar{
+>>>>>>> master
     color: #7232F3;
     font-weight: bold;
     font-size: 14px;
     border-radius: 3px;
 }
 
+<<<<<<< HEAD
 .pasqualotto,
 .wine-day{
     font-size: 3rem;
@@ -107,3 +117,14 @@ html, body{
 }
 
 
+=======
+.enterprise{
+    font-size: 3rem;
+    margin-bottom: 0;
+    font-weight: bold;
+    color: white;
+}
+
+#enterprise-block{
+}
+>>>>>>> master
