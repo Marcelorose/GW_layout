@@ -1,3 +1,109 @@
-html{
-    width: 100%;
+html, body{
+    font-family: 'Poppins', sans-serif !important;
 }
+
+#purple-bg{
+    background-image: linear-gradient(to right, #7030F3 , #B38BFF);
+}
+
+.navbar-styled{
+    align-items: flex-end !important;
+}
+
+.navbar-styled .nav-link{
+    color: white;
+    font-size: 14px;
+}
+
+#btn-entrar{
+    color: #7232F3;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.pasqualotto,
+.wine-day{
+    font-size: 3rem;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+#app-mockup{
+    max-height: 517px;
+    margin-left: 174px;
+}
+
+#app-mockup-gw{
+    max-height: 517px;
+}
+
+#pasqualotto-block{
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    color: white;
+}
+
+#wine-day-block{
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    color: black;
+}
+
+#pasqualotto-block p, #wine-day-block p{
+    margin-bottom: 0.3rem;
+}
+
+#pasqualotto-block p:first-of-type, #wine-day-block p:first-of-type{
+    margin-top: 1rem;
+}
+
+#btn-ver-projeto{
+    background-image: linear-gradient(to right, #B38BFF, #7030F3);
+    color: white;
+    border: 0;
+    font-size: 12px;
+    margin-top: 2rem;
+    padding: 13px 27px 13px 27px;
+    font-weight: bold;
+}
+
+.gw-features{
+    height: 50%;
+}
+
+.gw-features i{
+    font-size: 29px;
+    padding: 20px;
+    color: #6B28F2;
+}
+
+.gw-features .div-icon-custom i{
+    color: white;
+}
+
+.div-icon-custom{
+    border-radius: 5px;
+    width: 71px;
+    height: 71px;
+    background-image: linear-gradient(to right top, #7030F3, #B38BFF);
+}
+
+.div-icon{
+    border-radius: 5px;
+    width: 71px;
+    height: 71px;
+    background-color: #F2EFFD;
+    border: 1.5px solid #E2D6FC;
+}
+
+.row .gw-features .card{
+    border: 0
+}
+
+.row .gw-features .card-body{
+    padding: 0;
+    padding-top: 2rem;
+}
+
+
